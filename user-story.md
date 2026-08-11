@@ -1,7 +1,9 @@
 # User Story
+
 As a user of the food ratings app I want to see food hygiene ratings as percentages in a chosen local authority so that I can understand the profile of establishments in that authority
 
 # Elaboration
+
 The existing application returns only one of two preset results. Expand the functionality to retrieve actual ratings from the Food Ratings API, calculate percentages and return them in order to the UI.
 
 The Food Ratings API documentation can be found here: http://api.ratings.food.gov.uk/help
@@ -15,7 +17,9 @@ In Scotland the Food Standards Agency rates establishments using the FHIS rating
 For the purposes of this implementation the ratings schemes shall be considered fixed and unlikely to change.
 
 # Return order
+
 FHRS ratings should be returned in order, as in this example
+
 <table>
     <thead>
         <tr>
@@ -52,6 +56,7 @@ FHRS ratings should be returned in order, as in this example
 </table>
 
 FHIS ratings should be returned in order, as in this example
+
 <table>
     <thead>
         <tr>
@@ -76,6 +81,7 @@ FHIS ratings should be returned in order, as in this example
 </table>
 
 # Acceptance Criteria
+
 On selecting a local authority the rating values and percentage shall be displayed.
 
 All possible values for the relevant scheme type shall be displayed in the correct order.
